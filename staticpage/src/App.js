@@ -6,9 +6,10 @@ import Services from "./components/Services";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import './App.css';
+import Testmonial from "./components/Testmonial";
+import Map from "./components/Map";
 import Pricing from './components/Pricing';
-
+import './App.css';
 const App = () => {
   return (
     <div className="App">
@@ -17,10 +18,11 @@ const App = () => {
       <About />
       <Services />
       <Portfolio />
+      <Testmonial />
       <Pricing />
       <Contact />
+      <Map />
       <Footer />
-
     </div>
   );
 }
