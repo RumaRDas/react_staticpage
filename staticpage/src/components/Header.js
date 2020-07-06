@@ -8,9 +8,9 @@ const Header = () => {
             <p>We specialize in blablabla</p>
             <form className="form-inline">
                 <div className="input-group">
-                    <input type="email" class="form-control" size="50" placeholder="Email Address" required />
+                    <input type="email" className="form-control" size="50" placeholder="Email Address" required />
                     <div className="input-group-btn">
-                        <button type="button" class="btn btn-danger">Subscribe</button>
+                        <button type="button" className="btn btn-danger">Subscribe</button>
                     </div>
                 </div>
             </form>
