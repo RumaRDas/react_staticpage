@@ -39,7 +39,7 @@ const Services = () =>{
               </div>
               <div className="col-sm-4">
                 <span className="glyphicon glyphicon-wrench logo-small"></span>
-                <h4 >HARD WORK</h4>
+                <h4 style={{color:"#303030"}}>HARD WORK</h4>
                 <p>Lorem ipsum dolor sit amet..</p>
               </div>
             </div>
